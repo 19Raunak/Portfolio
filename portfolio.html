@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <title>Raunak Tiwari - Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+   <!-- Background gradient section -->
+  <!-- Bubbles -->
+  <div class="bubble" style="width: 100px; height: 100px; top: 10%; left: 20%; animation-delay: 0s;"></div>
+  <div class="bubble" style="width: 80px; height: 80px; top: 30%; left: 60%; animation-delay: 2s;"></div>
+  <div class="bubble" style="width: 120px; height: 120px; top: 50%; left: 35%; animation-delay: 4s;"></div>
+  <div class="bubble" style="width: 60px; height: 60px; top: 70%; left: 75%; animation-delay: 6s;"></div>
+  <div class="bubble" style="width: 90px; height: 90px; top: 85%; left: 10%; animation-delay: 8s;"></div>
+
+
+  <script src="portfolio.js"></script>
+
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="logo">RT</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><button class="theme-toggle" id="themeToggle">🌙</button></li>
+            </ul>
+            <div class="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Raunak Tiwari</h1>
+                <p class="hero-subtitle">Full-Stack Developer & UI/UX Designer</p>
+                <a href="#projects" class="cta-button">View My Work</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Media handles -->
+
+    <section class="social-section" id="socials">
+      <h2 class="section-title"></h2>
+      <div class="social-links">
+        <a href="#" class="cta-button">Resume</a>
+        <a href="https://linkedin.com/in/yourprofile" target="_blank" class="social-icon linkedin" aria-label="LinkedIn">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="https://github.com/19Raunak" target="_blank" class="social-icon github" aria-label="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://twitter.com/RaunakT19" target="_blank" class="social-icon twitter" aria-label="Twitter">
+          <i class="fab fa-x"></i>
+        </a>
+        <a href="mailto:raunak192209@gmail.com" class="social-icon email" aria-label="Email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title fade-in">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="about-img" style="background: linear-gradient(135deg, var(--primary), var(--primary-dark)); height: 300px; display: flex; align-items: center; justify-content: center; color: white; font-size: 4rem;">👨‍💻</div>
+                </div>
+                <div class="about-text fade-in">
+                    <p>I'm a passionate web developer experience creating digital experiences that combine beautiful design with robust functionality. I specialize in modern web technologies and Machine Learning Algorithms and have a keen eye for user experience design.</p>
+                    <br>
+                    <p>When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or enjoying a good cup of coffee while sketching out my next big idea.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <div class="container">
+            <h2 class="section-title fade-in">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">May 2024 - Jul 2024</div>
+                        <h3 class="timeline-title">SQL Summer Intern</h3>
+                        <div class="timeline-company">Celebal technologies</div>
+                        <p>• Utilized pgAdmin and PostgreSQL to write optimized queries for the AdventureWorks database.</p>
+                        <p>• Solved diverse problem statements and completed 6 SQL assignments.</p>
+                        <p>• Delivered a final project focusing on Stored Procedures, showcasing advanced SQL capabilities..</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <div class="container">
+            <h2 class="section-title fade-in">Education</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">2021 - 2025</div>
+                        <h3 class="timeline-title">Bachelor of Technology in Computer Science</h3>
+                        <div class="timeline-company">Techno Main Salt Lake</div>
+                        <p>Graduated with specialization in Software Engineering. Completed a group project on machine learning applications.</p>
+                        <p>CGPA - 8.5</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">2020</div>
+                        <h3 class="timeline-title">ISCE</h3>
+                        <div class="timeline-company">Nopany High</div>
+                        <p>Science - 91%</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">2018</div>
+                        <h3 class="timeline-title">ISCE</h3>
+                        <div class="timeline-company">Nopany High</div>
+                        <p>Science - 90%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title fade-in">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">🌐</div>
+                    <div class="project-content">
+                        <h3 class="project-title">E-Commerce Platform</h3>
+                        <p class="project-description">A full-featured e-commerce solution with real-time inventory, payment processing, and admin dashboard.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Stripe</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Live Demo</a>
+                            <a href="#" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">📱</div>
+                    <div class="project-content">
+                        <h3 class="project-title">Task Management App</h3>
+                        <p class="project-description">A collaborative task management application with real-time updates and team collaboration features.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Vue.js</span>
+                            <span class="tech-tag">Firebase</span>
+                            <span class="tech-tag">Socket.io</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Live Demo</a>
+                            <a href="#" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">📊</div>
+                    <div class="project-content">
+                        <h3 class="project-title">Early Cognitive Decline Predictor</h3>
+                        <p class="project-description">• Built an ML-based model to detect early signs of Mild Cognitive Impairment (MCI) from speech and text.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">LIWC</span>
+                            <span class="tech-tag">Django</span>
+                            <span class="tech-tag">TensorFlow</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Live Demo</a>
+                            <a href="#" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Include EmailJS SDK -->
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title fade-in">Get In Touch</h2>
+            <div class="contact-content">
+                <p class="fade-in">I'm always open to discussing new opportunities, interesting projects, or just having a chat about technology and design.</p>
+                <form class="contact-form fade-in">
+                    <div class="form-group">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" id="name" name="name" class="form-input" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" id="email" name="email" class="form-input" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea id="message" name="mesasge" class="form-textarea" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Raunak Tiwari. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
