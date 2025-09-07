@@ -140,7 +140,7 @@ const Portfolio = () => {
         {/* Right: Image */}
         <div className="hero-image">
           <img
-            src="./public/pfp.jpg"
+            src="./pfp.jpg"
             alt="Raunak Tiwari"
           />
         </div>
